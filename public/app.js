@@ -226,9 +226,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnBookSession = document.getElementById('btn-book-session');
 
   const packages = {
-    paseo:     { name: "Paseos Diarios",    unitPrice: 12, unitLabel: "paseos",  sliderMin: 1, sliderMax: 20, sliderDefault: 5,  priceLabel: "12€/paseo",  sessionLabel: "2. Número de Paseos" },
-    guarderia: { name: "Guardería Diurna",  unitPrice: 20, unitLabel: "días",    sliderMin: 1, sliderMax: 20, sliderDefault: 5,  priceLabel: "20€/día",    sessionLabel: "2. Número de Días" },
-    cuidado:   { name: "Cuidado en Casa",   unitPrice: 25, unitLabel: "noches",  sliderMin: 1, sliderMax: 14, sliderDefault: 3,  priceLabel: "25€/noche",  sessionLabel: "2. Número de Noches" }
+    paseo:     { name: "Paseos Diarios",    unitPrice: 9,  unitLabel: "paseos",  sliderMin: 1, sliderMax: 20, sliderDefault: 5,  priceLabel: "9€/paseo",   sessionLabel: "2. Número de Paseos" },
+    guarderia: { name: "Guardería Diurna",  unitPrice: 17, unitLabel: "días",    sliderMin: 1, sliderMax: 20, sliderDefault: 5,  priceLabel: "17€/día",    sessionLabel: "2. Número de Días" },
+    cuidado:   { name: "Cuidado en Casa",   unitPrice: 20, unitLabel: "noches",  sliderMin: 1, sliderMax: 14, sliderDefault: 3,  priceLabel: "20€/noche",  sessionLabel: "2. Número de Noches" }
   };
 
   let activePackage = 'paseo';
