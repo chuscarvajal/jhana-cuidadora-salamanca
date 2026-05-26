@@ -1,25 +1,25 @@
 /*
-   Casa del Ermitaño - Design System & Custom Stylesheet
-   Warm Leather & Golden Amber Palette — Adiestramiento & Psicología Canina Sitges
+   Cuidador canino Jhana - Design System & Custom Stylesheet
+   Terracota Salmantina — Cuidado & Paseos Caninos en Salamanca
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {
   /* Color Palette - Light Mode */
-  --bg-primary: #f9f4ec;
-  --bg-secondary: #f0e8da;
+  --bg-primary: #fdf6f0;
+  --bg-secondary: #f7ece2;
   --bg-card: #ffffff;
-  --text-primary: #2a1a08;
-  --text-secondary: #5a4228;
-  --color-primary: #5a3a10;
-  --color-primary-light: #6e4a1a;
-  --color-primary-rgb: 90, 58, 16;
-  --color-secondary: #8c5e22;
-  --color-secondary-light: #a07030;
-  --color-accent: #c88828;
-  --color-accent-rgb: 200, 136, 40;
-  --border-color: #ddd0b8;
+  --text-primary: #2a160a;
+  --text-secondary: #6a3e26;
+  --color-primary: #8b3a1e;
+  --color-primary-light: #a04828;
+  --color-primary-rgb: 139, 58, 30;
+  --color-secondary: #c05c2e;
+  --color-secondary-light: #d06838;
+  --color-accent: #e08c20;
+  --color-accent-rgb: 224, 140, 32;
+  --border-color: #e8d4c4;
 
   /* Shared */
   --font-title: 'Outfit', sans-serif;
@@ -30,26 +30,26 @@
   --radius-full: 9999px;
   --shadow-sm: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
   --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.04);
-  --shadow-lg: 0 20px 25px -5px rgba(90,58,16,0.15), 0 10px 10px -5px rgba(90,58,16,0.08);
+  --shadow-lg: 0 20px 25px -5px rgba(139,58,30,0.15), 0 10px 10px -5px rgba(139,58,30,0.08);
   --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 [data-theme="dark"] {
-  --bg-primary: #150e04;
-  --bg-secondary: #1e1508;
-  --bg-card: #2a1e0c;
-  --text-primary: #f5ede0;
-  --text-secondary: #b09070;
-  --color-primary: #c88828;
-  --color-primary-light: #daa038;
-  --color-primary-rgb: 200, 136, 40;
-  --color-secondary: #a87030;
-  --color-secondary-light: #bc8840;
-  --color-accent: #e0a040;
-  --color-accent-rgb: 224, 160, 64;
-  --border-color: #3a2a10;
+  --bg-primary: #160907;
+  --bg-secondary: #1f0e08;
+  --bg-card: #2a140c;
+  --text-primary: #f8ece4;
+  --text-secondary: #c09070;
+  --color-primary: #e05c30;
+  --color-primary-light: #ee6e40;
+  --color-primary-rgb: 224, 92, 48;
+  --color-secondary: #d06828;
+  --color-secondary-light: #e07830;
+  --color-accent: #f0a030;
+  --color-accent-rgb: 240, 160, 48;
+  --border-color: #3a1a0c;
 }
 
 /* ============================
